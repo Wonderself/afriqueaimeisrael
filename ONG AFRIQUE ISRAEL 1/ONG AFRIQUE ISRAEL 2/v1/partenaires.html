@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partenaires & Contact — ONG J'AIME ISRAËL</title>
-    <meta name="description" content="Partenaires et contact de l'ONG J'AIME ISRAËL. Rejoignez le réseau de coopération Afrique-Israël actif dans plus de 20 pays africains.">
-    <meta name="keywords" content="ONG, J'aime Israël, coopération Afrique-Israël, partenaires, contact, accréditation, sommet 2026, Tel Aviv, sponsoring">
+    <title>Partenaires &amp; Rejoindre — AFRIC4ISRAEL 2026</title>
+    <meta name="description" content="Devenez partenaire de la mission AFRIC4ISRAEL 2026. Niveaux Bronze, Argent, Or et Diamant. Rejoignez la délégation panafricaine à Jérusalem et Tel-Aviv.">
+    <meta name="keywords" content="Afric4Israel, partenaires, sponsors, rejoindre, mission 2026, Jérusalem, Tel-Aviv, ONG J'aime Israël, Bronze, Argent, Or, Diamant, coopération">
     <meta name="author" content="ONG J'AIME ISRAËL">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Partenaires & Contact — ONG J'AIME ISRAËL">
-    <meta property="og:description" content="Partenaires et contact de l'ONG J'AIME ISRAËL. Rejoignez le réseau de coopération Afrique-Israël actif dans plus de 20 pays africains.">
+    <meta property="og:title" content="Partenaires & Rejoindre — AFRIC4ISRAEL 2026">
+    <meta property="og:description" content="Devenez partenaire de la mission AFRIC4ISRAEL 2026. Niveaux Bronze, Argent, Or et Diamant. Rejoignez ~100 participants de 30+ nations.">
     <meta property="og:image" content="assets/img/ong-jaime-israel-sommet-afrique-israel-2026.jpg">
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="fr_FR">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Partenaires & Contact — ONG J'AIME ISRAËL">
-    <meta name="twitter:description" content="Partenaires et contact de l'ONG J'AIME ISRAËL. Rejoignez le réseau de coopération Afrique-Israël actif dans plus de 20 pays africains.">
+    <meta name="twitter:title" content="Partenaires & Rejoindre — AFRIC4ISRAEL 2026">
+    <meta name="twitter:description" content="Devenez partenaire de la mission AFRIC4ISRAEL 2026. Niveaux Bronze, Argent, Or et Diamant. Rejoignez ~100 participants de 30+ nations.">
     <meta name="twitter:image" content="assets/img/ong-jaime-israel-sommet-afrique-israel-2026.jpg">
     <link rel="stylesheet" href="../css/shared.css">
     <link rel="stylesheet" href="v1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .pack-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 3px; }
+        .pack-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 3px; }
         .pack {
             padding: 44px 36px; background: #fff;
             border-top: 3px solid transparent;
@@ -43,7 +43,8 @@
             letter-spacing: 4px; text-transform: uppercase;
             color: var(--txs); margin-bottom: 8px;
         }
-        .pack-title { font-size: 1.6rem; color: var(--tx); margin-bottom: 28px; letter-spacing: 1px; }
+        .pack-title { font-size: 1.6rem; color: var(--tx); margin-bottom: 8px; letter-spacing: 1px; }
+        .pack-price { font-family: 'Oswald',sans-serif; font-size: 1rem; color: var(--br); letter-spacing: 1px; margin-bottom: 28px; }
         .pack ul { list-style: none; padding: 0; margin: 0 0 32px; }
         .pack li {
             padding: 9px 0; border-bottom: 1px solid #edf2ee;
@@ -53,6 +54,11 @@
         .pack li::before { content: '—'; color: var(--br); flex-shrink: 0; font-size: .7rem; }
         .pack li.strong { color: var(--tx); font-weight: 500; }
         .pack li:last-child { border: none; }
+
+        .join-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 3px; margin-top: 3px; }
+        .join-card { background: #fff; padding: 36px 32px; border-left: 3px solid var(--br); }
+        .join-card h4 { font-family: 'Oswald',sans-serif; font-size: .85rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; color: var(--g); }
+        .join-card p { font-size: .88rem; color: var(--txm); line-height: 1.75; }
 
         .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
         .contact-form-side { background: var(--g); padding: 70px 60px; }
@@ -72,8 +78,12 @@
         .info-label { font-family: 'Oswald',sans-serif; font-size: .7rem; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,.35); margin-bottom: 4px; }
         .info-val { color: rgba(255,255,255,.7); font-size: .92rem; }
 
+        @media (max-width: 960px) {
+            .pack-grid { grid-template-columns: repeat(2,1fr); }
+        }
         @media (max-width: 768px) {
             .pack-grid { grid-template-columns: 1fr; }
+            .join-grid { grid-template-columns: 1fr; }
             .contact-grid { grid-template-columns: 1fr; }
             .contact-form-side, .contact-info-side { padding: 48px 28px; }
         }
@@ -86,38 +96,58 @@
         <a href="index.html" class="nav-brand"><span class="brand-dot"></span>ONG J'AIME ISRAËL</a>
         <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
         <ul class="nav-links">
-            <li><a href="index.html">Vision</a></li>
-            <li><a href="mission.html">Sommet 2026</a></li>
-            <li><a href="galerie.html">Médiathèque</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="mission.html">La Mission</a></li>
+            <li><a href="mission.html#programme">Programme</a></li>
+            <li><a href="mission.html#delegation">Délégation</a></li>
+            <li><a href="mission.html#forum">Forum Économique</a></li>
             <li><a href="partenaires.html" class="active">Partenaires</a></li>
-            <li><a href="partenaires.html#contact" class="nav-cta">S'engager</a></li>
+            <li><a href="legal.html">Gouvernance</a></li>
+            <li><a href="galerie.html">Médias</a></li>
+            <li><a href="partenaires.html#contact" class="nav-cta">Rejoindre</a></li>
         </ul>
     </div>
 </nav>
 
 <div class="page-header">
     <div class="container-wide reveal">
-        <span class="s-label">Rejoindre l'alliance</span>
-        <h1>PARTENARIAT &amp;<br>ACCRÉDITATION</h1>
-        <p>Investissez dans l'axe stratégique le plus porteur du XXI&sup1; siècle.</p>
+        <span class="s-label">Partenariat &amp; Engagement</span>
+        <h1>PARTENAIRES &amp;<br>REJOINDRE</h1>
+        <p>Soutenez la mission panafricaine de solidarité et de coopération avec Israël.</p>
     </div>
 </div>
 
-<!-- PACKS -->
+<!-- PACKS SPONSORING -->
 <section style="padding:80px 0; background:var(--lt);">
     <div class="container-wide">
         <div class="reveal" style="margin-bottom:48px;text-align:center;">
-            <span class="s-label">Niveaux d'engagement</span>
-            <h2 style="font-size:clamp(1.5rem,3vw,2.4rem);">INVESTIR DANS L'ALLIANCE</h2>
+            <span class="s-label">Niveaux de partenariat</span>
+            <h2 style="font-size:clamp(1.5rem,3vw,2.4rem);">DEVENIR PARTENAIRE</h2>
+            <p style="color:var(--txm);margin-top:14px;font-size:.95rem;max-width:600px;margin-left:auto;margin-right:auto;">Quatre niveaux d'engagement pour accompagner AFRIC4ISRAEL 2026 selon vos ambitions et vos moyens.</p>
         </div>
         <div class="pack-grid reveal">
             <div class="pack">
                 <div class="pack-name">Niveau Soutien</div>
                 <div class="pack-title">BRONZE</div>
+                <div class="pack-price">10 000 USD</div>
                 <ul>
-                    <li>Logo sur le site officiel</li>
-                    <li>1 accréditation délégué</li>
-                    <li>Mention dans les supports</li>
+                    <li>Visibilité sur le site officiel</li>
+                    <li>1 participant accrédité</li>
+                    <li>Mention dans les supports de communication</li>
+                    <li>Certificat de partenariat officiel</li>
+                </ul>
+                <a href="#contact" class="btn-ghost-d">Sélectionner</a>
+            </div>
+            <div class="pack">
+                <div class="pack-name">Niveau Impact</div>
+                <div class="pack-title">ARGENT</div>
+                <div class="pack-price">20 000 USD</div>
+                <ul>
+                    <li>Publicité dans les supports officiels</li>
+                    <li>2 participants accrédités</li>
+                    <li>Visibilité digitale renforcée</li>
+                    <li>Mention lors des sessions plénières</li>
+                    <li>Accès aux rencontres B2B</li>
                 </ul>
                 <a href="#contact" class="btn-ghost-d">Sélectionner</a>
             </div>
@@ -125,26 +155,60 @@
                 <div class="pack-badge">Recommandé</div>
                 <div class="pack-name">Niveau Stratégique</div>
                 <div class="pack-title">OR</div>
+                <div class="pack-price">30 000 USD</div>
                 <ul>
-                    <li class="strong">Dîner officiel privé — Délégation</li>
-                    <li class="strong">Stand central premium</li>
-                    <li class="strong">Keynote de 10 minutes</li>
-                    <li>10 accréditations VIP</li>
-                    <li>Visibilité digitale complète</li>
+                    <li class="strong">Stand dédié au Forum économique</li>
+                    <li class="strong">Visibilité renforcée sur tous les supports</li>
+                    <li>5 participants accrédités VIP</li>
+                    <li>Logo sur les communications officielles</li>
+                    <li>Accès à la soirée diplomatique</li>
                     <li>Inclusion dans le communiqué final</li>
                 </ul>
                 <a href="#contact" class="btn-br">Confirmer l'intérêt</a>
             </div>
             <div class="pack">
-                <div class="pack-name">Niveau Impact</div>
-                <div class="pack-title">ARGENT</div>
+                <div class="pack-name">Niveau Prestige</div>
+                <div class="pack-title">DIAMANT</div>
+                <div class="pack-price">40 000 USD</div>
                 <ul>
-                    <li>Stand standard</li>
-                    <li>5 accréditations VIP</li>
-                    <li>Visibilité digitale</li>
-                    <li>Mention officielle</li>
+                    <li class="strong">Intervention en session plénière</li>
+                    <li class="strong">Visibilité prioritaire sur tous les canaux</li>
+                    <li>10 participants accrédités VIP</li>
+                    <li>Stand premium au Forum économique</li>
+                    <li>Dîner officiel avec les délégations</li>
+                    <li>Co-signature des accords de coopération</li>
+                    <li>Mention dans la Déclaration de Jérusalem</li>
                 </ul>
-                <a href="#contact" class="btn-ghost-d">Sélectionner</a>
+                <a href="#contact" class="btn-br">Devenir Diamant</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REJOINDRE LA MISSION -->
+<section style="padding:80px 0; background:#fff;">
+    <div class="container-wide">
+        <div class="reveal" style="text-align:center;max-width:700px;margin:0 auto 48px;">
+            <span class="s-label">Rejoindre la mission</span>
+            <h2 style="font-size:clamp(1.4rem,3vw,2.2rem);">COMMENT PARTICIPER</h2>
+            <p style="color:var(--txm);margin-top:14px;font-size:.95rem;line-height:1.8;">Plusieurs voies pour intégrer la mission AFRIC4ISRAEL 2026 — que vous soyez individu, organisation ou représentant national.</p>
+        </div>
+        <div class="join-grid reveal">
+            <div class="join-card">
+                <h4><i class="fas fa-user" style="color:var(--br);margin-right:8px;"></i>Délégué</h4>
+                <p>Participez en tant que membre de la délégation panafricaine. Accès à l'ensemble du programme : rencontres institutionnelles, marche de solidarité, Forum économique, soirée diplomatique. Accréditation individuelle sur dossier.</p>
+            </div>
+            <div class="join-card">
+                <h4><i class="fas fa-flag" style="color:var(--br);margin-right:8px;"></i>Représentant national</h4>
+                <p>Devenez le point focal de votre pays pour AFRIC4ISRAEL 2026. Coordonnez la délégation nationale, assurez la liaison avec l'ONG J'AIME ISRAËL et représentez votre nation lors des sessions officielles.</p>
+            </div>
+            <div class="join-card">
+                <h4><i class="fas fa-hands-helping" style="color:var(--br);margin-right:8px;"></i>Volontariat</h4>
+                <p>Contribuez à la réussite de la mission en tant que volontaire. Logistique, communication, accueil des délégations, coordination terrain — chaque contribution compte pour faire de cette mission un succès.</p>
+            </div>
+            <div class="join-card">
+                <h4><i class="fas fa-network-wired" style="color:var(--br);margin-right:8px;"></i>Réseau Afric4Israel</h4>
+                <p>Rejoignez le réseau permanent Afric4Israel. Même sans participer physiquement à la mission de mai 2026, restez connecté, informé et actif dans la dynamique de coopération Afrique-Israël tout au long de l'année.</p>
             </div>
         </div>
     </div>
@@ -155,7 +219,7 @@
     <div class="contact-grid">
         <div class="contact-form-side reveal">
             <span class="s-label" style="color:var(--br);">Formulaire</span>
-            <h2 style="color:#fff;font-size:clamp(1.4rem,2.5vw,2.2rem);margin-bottom:36px;">DEMANDE<br>D'ACCRÉDITATION</h2>
+            <h2 style="color:#fff;font-size:clamp(1.4rem,2.5vw,2.2rem);margin-bottom:36px;">REJOINDRE<br>LA MISSION</h2>
             <form onsubmit="return false;">
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
                     <div class="form-field">
@@ -174,15 +238,23 @@
                 <div class="form-field">
                     <label>Type d'engagement</label>
                     <select>
-                        <option>Partenariat OR — Stratégique</option>
-                        <option>Partenariat ARGENT — Impact</option>
-                        <option>Partenariat BRONZE — Soutien</option>
+                        <option>Partenariat DIAMANT — 40 000 USD</option>
+                        <option>Partenariat OR — 30 000 USD</option>
+                        <option>Partenariat ARGENT — 20 000 USD</option>
+                        <option>Partenariat BRONZE — 10 000 USD</option>
                         <option>Délégué individuel</option>
+                        <option>Représentant national</option>
+                        <option>Volontariat</option>
+                        <option>Réseau Afric4Israel</option>
                     </select>
                 </div>
                 <div class="form-field">
-                    <label>Message &amp; Intentions</label>
-                    <textarea rows="4" placeholder="Décrivez votre organisation et votre vision de cette collaboration..."></textarea>
+                    <label>Pays</label>
+                    <input type="text" placeholder="Votre pays de résidence">
+                </div>
+                <div class="form-field">
+                    <label>Message &amp; Motivations</label>
+                    <textarea rows="4" placeholder="Décrivez votre organisation, votre motivation et la manière dont vous souhaitez contribuer à la mission..."></textarea>
                 </div>
                 <button type="submit" class="btn-br" style="width:100%;text-align:center;border:none;cursor:pointer;">Soumettre le dossier</button>
             </form>
@@ -200,14 +272,18 @@
             </div>
             <div class="info-item">
                 <i class="fas fa-map-marker-alt info-icon"></i>
-                <div><div class="info-label">Siège social</div><div class="info-val">Riviera Bonoumin<br>Abidjan, Côte d'Ivoire</div></div>
+                <div><div class="info-label">Siège Afrique</div><div class="info-val">Riviera Bonoumin<br>Abidjan, Côte d'Ivoire</div></div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-globe info-icon"></i>
+                <div><div class="info-label">Bureaux</div><div class="info-val">Bureau Israël<br>Représentation UE</div></div>
             </div>
             <div class="info-item">
                 <i class="fas fa-certificate info-icon"></i>
-                <div><div class="info-label">Statut légal</div><div class="info-val">Récépissé N° 1380<br>Enregistrée depuis 2007</div></div>
+                <div><div class="info-label">Statut légal</div><div class="info-val">Récépissé N° 1380<br>ONG J'AIME ISRAËL — Fondée en 2007</div></div>
             </div>
             <div style="margin-top:40px;padding-top:32px;border-top:1px solid rgba(255,255,255,.08);">
-                <p style="color:rgba(255,255,255,.3);font-size:.82rem;font-style:italic;line-height:1.7;">"Le pont entre deux terres promises — l'Afrique et Israël construisent ensemble leur avenir commun."</p>
+                <p style="color:rgba(255,255,255,.3);font-size:.82rem;font-style:italic;line-height:1.7;">"L'Afrique citoyenne affirme sa voix — librement, dignement, fraternellement."</p>
             </div>
         </div>
     </div>
@@ -215,12 +291,35 @@
 
 <footer class="site-footer">
     <div class="footer-inner">
-        <div><span class="footer-brand">ONG J'AIME ISRAËL</span><p>Riviera Bonoumin, Abidjan</p><p>Récépissé N° 1380 — 2007</p></div>
-        <div><h5>Navigation</h5><a href="index.html">Vision</a><a href="mission.html">Sommet 2026</a><a href="galerie.html">Médiathèque</a><a href="partenaires.html">Partenaires</a></div>
-        <div><h5>Légal</h5><a href="legal.html">Mentions légales</a></div>
-        <div><h5>Contact</h5><a href="mailto:afriqueisrael6@gmail.com">afriqueisrael6@gmail.com</a><p style="margin-top:6px;">+225 07 08 88 61 61</p></div>
+        <div>
+            <span class="footer-brand">AFRIC4ISRAEL 2026</span>
+            <p>ONG J'AIME ISRAËL</p>
+            <p>Riviera Bonoumin, Abidjan, Côte d'Ivoire</p>
+            <p>Récépissé N° 1380 — Fondée en 2007</p>
+            <p style="color:var(--br);font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:2px;margin-top:14px;">MISSION PANAFRICAINE DE SOLIDARITÉ</p>
+        </div>
+        <div>
+            <h5>Navigation</h5>
+            <a href="index.html">Accueil</a>
+            <a href="mission.html">La Mission</a>
+            <a href="partenaires.html">Partenaires</a>
+            <a href="galerie.html">Médias &amp; Presse</a>
+        </div>
+        <div>
+            <h5>Légal</h5>
+            <a href="legal.html">Gouvernance &amp; Transparence</a>
+            <a href="legal.html">Mentions légales</a>
+        </div>
+        <div>
+            <h5>Contact</h5>
+            <a href="mailto:afriqueisrael6@gmail.com">afriqueisrael6@gmail.com</a>
+            <p style="margin-top:6px;">+225 07 08 88 61 61</p>
+            <p style="margin-top:6px;font-size:.82rem;color:var(--txm);">Siège Afrique (Côte d'Ivoire)<br>Bureau Israël<br>Représentation UE</p>
+        </div>
     </div>
-    <div class="footer-bottom">&copy; 2026 ONG J'AIME ISRAËL — <a href="../index.html">← Retour aux versions</a></div>
+    <div class="footer-bottom">
+        &copy; 2026 AFRIC4ISRAEL — ONG J'AIME ISRAËL — <a href="../index.html">← Retour aux versions</a>
+    </div>
 </footer>
 
 <script src="../js/app.js"></script>
