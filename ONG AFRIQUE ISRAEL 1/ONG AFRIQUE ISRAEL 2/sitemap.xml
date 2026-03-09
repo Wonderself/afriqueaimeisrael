@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Version 1 — Tech & Terroir -->
+  <url><loc>v1/index.html</loc><lastmod>2026-02-19</lastmod><priority>1.0</priority></url>
+  <url><loc>v1/mission.html</loc><lastmod>2026-02-19</lastmod><priority>0.9</priority></url>
+  <url><loc>v1/galerie.html</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
+  <url><loc>v1/partenaires.html</loc><lastmod>2026-02-19</lastmod><priority>0.8</priority></url>
+  <url><loc>v1/legal.html</loc><lastmod>2026-02-19</lastmod><priority>0.4</priority></url>
+
+  <!-- Version 2 — L'Alliance -->
+  <url><loc>v2/index.html</loc><lastmod>2026-02-19</lastmod><priority>1.0</priority></url>
+  <url><loc>v2/mission.html</loc><lastmod>2026-02-19</lastmod><priority>0.9</priority></url>
+  <url><loc>v2/galerie.html</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
+  <url><loc>v2/partenaires.html</loc><lastmod>2026-02-19</lastmod><priority>0.8</priority></url>
+  <url><loc>v2/legal.html</loc><lastmod>2026-02-19</lastmod><priority>0.4</priority></url>
+
+  <!-- Version 3 — Racines -->
+  <url><loc>v3/index.html</loc><lastmod>2026-02-19</lastmod><priority>1.0</priority></url>
+  <url><loc>v3/mission.html</loc><lastmod>2026-02-19</lastmod><priority>0.9</priority></url>
+  <url><loc>v3/galerie.html</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
+  <url><loc>v3/partenaires.html</loc><lastmod>2026-02-19</lastmod><priority>0.8</priority></url>
+  <url><loc>v3/legal.html</loc><lastmod>2026-02-19</lastmod><priority>0.4</priority></url>
+</urlset>

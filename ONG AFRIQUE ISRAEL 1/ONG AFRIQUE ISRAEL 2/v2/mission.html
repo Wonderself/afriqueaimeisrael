@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sommet 2026 — ONG J'AIME ISRAËL</title>
+    <meta name="description" content="Programme du Sommet Tech & Terroir 2026. 7 jours de coopération stratégique Afrique-Israël à Tel Aviv : diplomatie, innovation, agriculture.">
+    <meta name="keywords" content="ONG, J'aime Israël, sommet 2026, Tel Aviv, programme, Tech et Terroir, diplomatie, agriculture, technologie, Bénin, Togo, Congo, Côte d'Ivoire">
+    <meta name="author" content="ONG J'AIME ISRAËL">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sommet 2026 — ONG J'AIME ISRAËL">
+    <meta property="og:description" content="Programme du Sommet Tech & Terroir 2026. 7 jours de coopération stratégique Afrique-Israël à Tel Aviv : diplomatie, innovation, agriculture.">
+    <meta property="og:image" content="assets/img/ong-jaime-israel-sommet-afrique-israel-2026.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sommet 2026 — ONG J'AIME ISRAËL">
+    <meta name="twitter:description" content="Programme du Sommet Tech & Terroir 2026. 7 jours de coopération stratégique Afrique-Israël à Tel Aviv : diplomatie, innovation, agriculture.">
+    <meta name="twitter:image" content="assets/img/ong-jaime-israel-sommet-afrique-israel-2026.jpg">
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Event","name":"Sommet Tech & Terroir 2026","startDate":"2026-05-01","endDate":"2026-05-07","location":{"@type":"Place","name":"Tel Aviv, Israël"},"organizer":{"@type":"Organization","name":"ONG J'AIME ISRAËL","url":""},"description":"Sommet international de coopération Afrique-Israël : agriculture, technologie, diplomatie."}
+    </script>
+    <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="v2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .agenda-row {
+            display: grid; grid-template-columns: 120px 1fr;
+            gap: 0; border-bottom: 1px solid #e0e8e0;
+        }
+        .agenda-row:last-child { border-bottom: none; }
+        .agenda-day {
+            background: var(--g); padding: 32px 24px;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            text-align: center; border-right: 3px solid var(--br);
+        }
+        .agenda-day .day-num {
+            font-family: 'Oswald', sans-serif; font-size: 2.5rem; font-weight: 700;
+            color: #fff; line-height: 1;
+        }
+        .agenda-day .day-label {
+            font-family: 'Oswald', sans-serif; font-size: .62rem;
+            letter-spacing: 2px; text-transform: uppercase;
+            color: rgba(255,255,255,.4); margin-top: 4px;
+        }
+        .agenda-content { padding: 32px 40px; }
+        .agenda-content h3 { font-size: 1rem; letter-spacing: 2px; color: var(--tx); margin-bottom: 8px; }
+        .agenda-content .date-tag { font-family: 'Oswald', sans-serif; font-size: .7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--txs); margin-bottom: 12px; }
+        .agenda-content p, .agenda-content li { font-size: .88rem; color: var(--txm); line-height: 1.75; }
+        .agenda-content ul { padding-left: 0; list-style: none; margin: 0; }
+        .agenda-content li { padding: 4px 0; display: flex; gap: 10px; }
+        .agenda-content li::before { content: '\2014'; color: var(--br); flex-shrink: 0; }
+        .agenda-row.highlight .agenda-content { background: var(--cr); }
+        .agenda-row.highlight h3 { color: var(--bl); }
+
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+            border: 1px solid #e0e8e0;
+        }
+        .impact-card {
+            padding: 44px 36px;
+            border-right: 1px solid #e0e8e0;
+        }
+        .impact-card:last-child { border-right: none; }
+        .impact-card .ic-num {
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--br);
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+        .impact-card h4 {
+            font-family: 'Oswald', sans-serif;
+            font-size: .8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+            color: var(--tx);
+        }
+        .impact-card p {
+            font-size: .88rem;
+            color: var(--txm);
+            line-height: 1.8;
+        }
+
+        @media (max-width: 900px) {
+            .impact-grid { grid-template-columns: 1fr; }
+            .impact-card { border-right: none; border-bottom: 1px solid #e0e8e0; }
+            .impact-card:last-child { border-bottom: none; }
+        }
+        @media (max-width: 600px) {
+            .agenda-row { grid-template-columns: 80px 1fr; }
+            .agenda-day { padding: 20px 10px; }
+            .agenda-day .day-num { font-size: 1.8rem; }
+            .agenda-content { padding: 20px 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-brand"><span class="brand-dot"></span>ONG J'AIME ISRAËL</a>
+        <button class="nav-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+            <li><a href="index.html">Vision</a></li>
+            <li><a href="mission.html" class="active">Sommet 2026</a></li>
+            <li><a href="galerie.html">Archives</a></li>
+            <li><a href="partenaires.html">Alliance</a></li>
+            <li><a href="partenaires.html#contact" class="nav-cta">Le Manifeste</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="page-header">
+    <div class="container-wide reveal">
+        <span class="s-label">Programme officiel</span>
+        <h1>SOMMET 2026</h1>
+        <p>11 – 17 Mai 2026 &nbsp;&middot;&nbsp; Tel Aviv, Israël &nbsp;&middot;&nbsp; 7 jours de diplomatie, d'innovation et d'accords stratégiques entre l'Afrique et Israël. Le rendez-vous qui redéfinira la coopération intercontinentale pour la prochaine décennie.</p>
+    </div>
+</div>
+
+<!-- HERO AVEC HERO-BG -->
+<div style="position:relative;height:420px;overflow:hidden;">
+    <img src="../assets/img/ong-jaime-israel-sommet-afrique-israel-2026.jpg" alt="Sommet Tech et Terroir 2026 — Forum international Afrique-Israël à Tel Aviv" style="width:100%;height:100%;object-fit:cover;filter:brightness(.2) saturate(.6);">
+    <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;">
+        <div class="reveal">
+            <div style="font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:6px;color:var(--br);text-transform:uppercase;margin-bottom:20px;">Forum International</div>
+            <h2 style="font-size:clamp(2.5rem,7vw,6rem);color:#fff;letter-spacing:5px;line-height:.9;">TECH<br>&amp; TERROIR</h2>
+            <p style="color:rgba(255,255,255,.4);font-size:1rem;margin-top:18px;letter-spacing:2px;">L'accélérateur économique afro-israélien</p>
+            <p style="color:rgba(255,255,255,.25);font-size:.88rem;margin-top:12px;max-width:500px;line-height:1.7;">50 décideurs stratégiques. 30+ nations représentées. 7 jours qui changeront l'avenir des relations Afrique-Israël.</p>
+            <div style="margin-top:32px;">
+                <a href="partenaires.html#contact" class="btn-br">Demander l'accréditation</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section style="padding:80px 0; background:#fff;">
+    <div class="container-wide">
+        <div style="display:grid;grid-template-columns:1fr 300px;gap:60px;" class="reveal">
+            <div>
+                <!-- PROTOCOLE -->
+                <div style="background:var(--cr);border-left:3px solid var(--br);padding:24px 28px;margin-bottom:44px;">
+                    <div style="font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--txs);margin-bottom:6px;">Protocole vestimentaire</div>
+                    <p style="color:var(--txm);font-size:.9rem;margin:0 0 12px;">La tenue traditionnelle africaine est requise lors des sessions officielles pour affirmer la fierté et l'identité culturelle de nos délégations. Ce choix vestimentaire n'est pas décoratif — il est politique. Il affirme que l'Afrique vient au sommet en tant que civilisation, non en tant que bénéficiaire.</p>
+                    <p style="color:var(--txm);font-size:.9rem;margin:0;">Les délégués sont également invités à porter les insignes de leurs nations respectives lors de la cérémonie d'ouverture et de la session plénière. Un service de pressing sera mis à disposition à l'hôtel de la délégation.</p>
+                </div>
+
+                <!-- PROTOCOLE SECURITAIRE -->
+                <div style="background:var(--cr);border-left:3px solid var(--g);padding:24px 28px;margin-bottom:44px;">
+                    <div style="font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--txs);margin-bottom:6px;">Protocole de sécurité</div>
+                    <p style="color:var(--txm);font-size:.9rem;margin:0 0 12px;">Tous les participants doivent être munis de leur accréditation officielle à tout moment pendant la durée du Sommet. Les accès aux sessions plénières, aux dîners officiels et aux zones VIP sont strictement contrôlés.</p>
+                    <p style="color:var(--txm);font-size:.9rem;margin:0;">Un briefing sécuritaire complet sera dispensé le jour de l'arrivée par l'équipe de coordination. Les consignes spécifiques liées au contexte israélien seront communiquées en amont par email aux délégués accrédités.</p>
+                </div>
+
+                <span class="s-label">Programme jour par jour</span>
+                <h2 style="font-size:clamp(1.4rem,2.5vw,2.2rem);margin-bottom:40px;">L'AGENDA DU SOMMET</h2>
+
+                <div style="border:1px solid #e0e8e0;">
+                    <!-- JOUR 11 -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day"><div class="day-num">11</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>ARRIVÉE &amp; BRIEFING</h3>
+                            <div class="date-tag">Dimanche — Jour d'ouverture</div>
+                            <p style="margin-bottom:12px;">Atterrissage à l'aéroport international Ben Gourion. Accueil protocolaire des délégations par le comité d'organisation. Transfert vers l'hôtel officiel du Sommet dans le quartier de Neve Tzedek, Tel Aviv.</p>
+                            <ul>
+                                <li>Accueil VIP à l'aéroport avec escorte protocolaire</li>
+                                <li>Installation des délégations et remise des kits participants</li>
+                                <li>Session de cadrage sécuritaire obligatoire — 16h00</li>
+                                <li>Présentation officielle du programme et distribution des badges</li>
+                                <li>Cocktail de bienvenue sur la terrasse de l'hôtel — 19h30</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 12 -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day"><div class="day-num">12</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>DÉCOUVERTE &amp; CULTURE</h3>
+                            <div class="date-tag">Lundi — Immersion culturelle</div>
+                            <p style="margin-bottom:12px;">Journée consacrée à la dimension spirituelle et historique de la relation Afrique-Israël. Visite de la ville sainte de Jérusalem, rencontre avec les communautés locales et immersion dans le patrimoine commun qui fonde notre alliance.</p>
+                            <ul>
+                                <li>Visite guidée de Jérusalem — Vieille Ville, Mur Occidental, Mont des Oliviers</li>
+                                <li>Rencontre avec la communauté afro-israélienne et échanges interculturels</li>
+                                <li>Déjeuner dans le quartier chrétien de Jérusalem</li>
+                                <li>Visite du Musée d'Israël — section archéologique et historique</li>
+                                <li>Dîner d'intégration officiel au restaurant du King David Hotel — 20h00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 13 -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day"><div class="day-num">13</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>DIPLOMATIE &amp; MÉMOIRE</h3>
+                            <div class="date-tag">Mardi — Journée institutionnelle</div>
+                            <p style="margin-bottom:12px;">Journée de contacts institutionnels au plus haut niveau. Audience au Parlement israélien, devoir de mémoire à Yad Vashem, et rencontres avec les élus et diplomates qui fa&ccedil;onnent la politique étrangère d'Israël en direction de l'Afrique.</p>
+                            <ul>
+                                <li>Audience officielle à la Knesset — Parlement d'Israël — 09h30</li>
+                                <li>Rencontres bilatérales avec les députés de la Commission des Affaires étrangères</li>
+                                <li>Devoir de mémoire à Yad Vashem — Mémorial de la Shoah</li>
+                                <li>Session de travail avec le Département Afrique du Ministère des Affaires étrangères</li>
+                                <li>Débriefing diplomatique et préparation des jours suivants — 18h00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 14 -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day"><div class="day-num">14</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>INNOVATION SUR LE TERRAIN</h3>
+                            <div class="date-tag">Mercredi — Visites techniques</div>
+                            <p style="margin-bottom:12px;">Plongée au cœur de l'écosystème d'innovation israélien. Visites de startups, de fermes expérimentales et de centres de recherche. Les délégués verront de leurs propres yeux les technologies qui seront déployées en Afrique dans le cadre de nos programmes de coopération.</p>
+                            <ul>
+                                <li>Visite de startups AgriTech à Tel Aviv — campus innovation Atidim</li>
+                                <li>Transfert vers le désert du Néguev — fermes expérimentales de Sede Boqer</li>
+                                <li>Démonstrations en direct : irrigation goutte-à-goutte, serres solaires, aquaponie</li>
+                                <li>Rencontre avec les équipes de recherche de l'Université Ben Gourion</li>
+                                <li>Session de matching investisseurs-porteurs de projets africains — 17h00</li>
+                                <li>Dîner en plein désert sous les étoiles — 20h00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 15 — HIGHLIGHT -->
+                    <div class="agenda-row highlight reveal">
+                        <div class="agenda-day" style="background:var(--bl);border-right-color:var(--bl);"><div class="day-num">15</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>FORUM TECH &amp; TERROIR</h3>
+                            <div class="date-tag">Jeudi — Le cœur du Sommet</div>
+                            <p style="margin-bottom:12px;">La journée centrale du Sommet. Sessions plénières, signatures d'accords, networking de haut niveau. C'est lors de cette journée que les engagements concrets seront pris et que les trajectoires de coopération pour la décennie 2026-2036 seront définies.</p>
+                            <ul>
+                                <li>Ouverture solennelle du Forum par le Président Fondateur — 09h00</li>
+                                <li>Sessions plénières thématiques : AgriTech, Eau, Énergie, Éducation</li>
+                                <li>Signatures de MOU et protocoles de coopération entre délégations</li>
+                                <li>Networking B2B structuré — deal-flow investisseurs et porteurs de projets</li>
+                                <li>Keynotes des partenaires stratégiques et témoignages de terrain</li>
+                                <li>Panel : "L'Afrique et Israël en 2036 — Quelle vision commune ?"</li>
+                                <li>Remise des prix de l'innovation afro-israélienne — 17h30</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 16 — ANNONCE HISTORIQUE -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day" style="background:var(--br);"><div class="day-num">16</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>ANNONCE HISTORIQUE</h3>
+                            <div class="date-tag">Vendredi — Révélation majeure</div>
+                            <p style="margin-bottom:12px;">Une annonce majeure concernant l'avenir des relations Afrique-Israël sera dévoilée ce jour. Détails réservés aux participants accrédités. Ce que nous pouvons confirmer : il s'agit d'une initiative structurante, portée au plus haut niveau, qui marquera un tournant dans l'histoire de la coopération afro-israélienne.</p>
+                            <ul>
+                                <li>Cérémonie solennelle de révélation — accès strictement réservé aux délégations accréditées</li>
+                                <li>Allocutions officielles des personnalités présentes</li>
+                                <li>Session de questions-réponses avec la presse internationale accréditée</li>
+                                <li>Cérémonie en présence des délégations et médias internationaux</li>
+                                <li>Dîner de gala — célébration de l'Alliance — 20h00 au Hilton Tel Aviv</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- JOUR 17 -->
+                    <div class="agenda-row reveal">
+                        <div class="agenda-day"><div class="day-num">17</div><div class="day-label">Mai</div></div>
+                        <div class="agenda-content">
+                            <h3>DÉCLARATION &amp; DÉPARTS</h3>
+                            <div class="date-tag">Samedi — Clôture officielle</div>
+                            <p style="margin-bottom:12px;">Journée de clôture du Sommet avec la publication de la Déclaration finale, la conférence de presse internationale et les retours officiels des délégations. C'est le jour où les engagements pris durant la semaine deviennent publics et irrévocables.</p>
+                            <ul>
+                                <li>Petit-déjeuner de clôture et derniers échanges informels — 08h00</li>
+                                <li>Conférence de presse internationale — 10h00</li>
+                                <li>Publication officielle de la Déclaration finale du Sommet</li>
+                                <li>Photo de groupe officielle des délégations</li>
+                                <li>Retours officiels — transferts vers l'aéroport Ben Gourion</li>
+                                <li>Diffusion du communiqué de presse dans les médias partenaires</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SIDEBAR -->
+            <aside style="position:sticky;top:calc(var(--nav-h) + 24px);">
+                <div style="background:var(--gb);padding:36px;margin-bottom:12px;">
+                    <span class="s-label">Infos pratiques</span>
+                    <div style="display:flex;flex-direction:column;gap:20px;margin-top:16px;">
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">LIEU</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">Tel Aviv, Israël</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">DATES</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">11 – 17 Mai 2026</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">DÉLÉGATION</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">50 décideurs clés</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">NATIONS</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">30+ pays représentés</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">LANGUE</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">Fran&ccedil;ais &amp; Anglais</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">HÉBERGEMENT</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">Hôtel officiel inclus</span></div>
+                        <div><span style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);display:block;margin-bottom:3px;">VISA</span><span style="color:rgba(255,255,255,.65);font-size:.9rem;">Assistance fournie</span></div>
+                    </div>
+                </div>
+                <a href="partenaires.html#contact" class="btn-br" style="display:block;text-align:center;padding:16px;">Demander l'accréditation</a>
+                <div style="margin-top:12px;">
+                    <img src="../assets/img/cooperation-agricole-afrique-israel-innovation.jpg" alt="Innovation agricole et coopération technologique Afrique-Israël — ONG J'AIME ISRAËL" style="width:100%;height:180px;object-fit:cover;filter:saturate(.7) brightness(.8);">
+                </div>
+                <div style="background:var(--gd);padding:24px;margin-top:12px;">
+                    <div style="font-family:'Oswald',sans-serif;font-size:.65rem;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-bottom:8px;">Contact rapide</div>
+                    <p style="color:rgba(255,255,255,.5);font-size:.85rem;line-height:1.7;margin:0;">afriqueisrael6@gmail.com<br>+225 07 08 88 61 61</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<!-- CE QUE LE SOMMET CHANGE -->
+<section style="padding:80px 0; background:var(--cr);">
+    <div class="container-wide">
+        <div class="reveal" style="text-align:center;max-width:700px;margin:0 auto 56px;">
+            <span class="s-label">Impact concret</span>
+            <h2 style="font-size:clamp(1.5rem,3vw,2.4rem);">CE QUE LE SOMMET CHANGE</h2>
+            <p style="color:var(--txm);margin-top:14px;font-size:.95rem;line-height:1.8;">Le Sommet 2026 n'est pas une conférence de plus. C'est un mécanisme de transformation concret. Voici ce qui en sortira — et ce qui changera réellement pour l'Afrique et Israël.</p>
+        </div>
+        <div class="impact-grid reveal">
+            <div class="impact-card">
+                <div class="ic-num">01</div>
+                <h4>DES ACCORDS CONCRETS SIGNÉS</h4>
+                <p>Le Sommet ne produit pas des déclarations d'intention — il produit des MOU (Memorandums of Understanding) signés entre décideurs africains et innovateurs israéliens. Chaque accord est suivi d'un plan d'exécution à 12 mois avec des indicateurs de performance mesurables. L'objectif : zéro promesse vide, 100% d'engagements opérationnels.</p>
+            </div>
+            <div class="impact-card">
+                <div class="ic-num">02</div>
+                <h4>UN RÉSEAU PERMANENT ACTIVÉ</h4>
+                <p>Après le Sommet, le réseau ne s'éteint pas. Un comité de suivi permanent est mis en place pour accompagner la mise en oeuvre des accords, faciliter les mises en relation, et organiser des points d'étape trimestriels. Les 500+ membres du réseau restent connectés et actifs toute l'année.</p>
+            </div>
+            <div class="impact-card">
+                <div class="ic-num">03</div>
+                <h4>UN TRANSFERT TECHNOLOGIQUE RÉEL</h4>
+                <p>Les technologies présentées au Sommet ne restent pas au stade de la démonstration. Des programmes de déploiement sont lancés dans les mois qui suivent, avec formation locale, accompagnement technique et suivi sur le terrain. L'objectif est l'autonomie complète des équipes africaines en 24 mois maximum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BANDE PHOTOS AVANT FOOTER -->
+<div class="v2-photo-strip">
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-04.jpg" data-caption="Archive N&deg;4 — Correspondance officielle"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-04.jpg" alt="Lettre officielle de coopération Afrique-Israël n°4 — Correspondance diplomatique ONG J'AIME ISRAËL" loading="lazy"></div>
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-07.jpg" data-caption="Archive N&deg;7 — Documentation diplomatique"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-07.jpg" alt="Lettre officielle de coopération Afrique-Israël n°7 — Documentation diplomatique ONG J'AIME ISRAËL" loading="lazy"></div>
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-10.jpg" data-caption="Archive N&deg;10 — Rencontre institutionnelle"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-10.jpg" alt="Lettre officielle de coopération Afrique-Israël n°10 — Rencontre institutionnelle ONG J'AIME ISRAËL" loading="lazy"></div>
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-16.jpg" data-caption="Archive N&deg;16 — Mission de terrain"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-16.jpg" alt="Lettre officielle de coopération Afrique-Israël n°16 — Mission de terrain ONG J'AIME ISRAËL" loading="lazy"></div>
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-19.jpg" data-caption="Archive N&deg;19 — Engagement continu"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-19.jpg" alt="Lettre officielle de coopération Afrique-Israël n°19 — Engagement continu ONG J'AIME ISRAËL" loading="lazy"></div>
+    <div class="v2-strip-item" data-lb="../assets/letters/lettre-officielle-cooperation-afrique-israel-23.jpg" data-caption="Archive N&deg;23 — Preuve documentaire"><img src="../assets/letters/lettre-officielle-cooperation-afrique-israel-23.jpg" alt="Lettre officielle de coopération Afrique-Israël n°23 — Preuve documentaire ONG J'AIME ISRAËL" loading="lazy"></div>
+</div>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <span class="footer-brand">ONG J'AIME ISRAËL</span>
+            <p>Riviera Bonoumin, Abidjan, Côte d'Ivoire</p>
+            <p>Récépissé N&deg; 1380 — Fondé en 2007</p>
+            <p style="color:var(--br);font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:2px;margin-top:14px;">L'ALLIANCE QUI CHANGE LE MONDE</p>
+        </div>
+        <div>
+            <h5>Navigation</h5>
+            <a href="index.html">Vision</a>
+            <a href="mission.html">Sommet 2026</a>
+            <a href="galerie.html">Archives</a>
+            <a href="partenaires.html">Alliance</a>
+        </div>
+        <div>
+            <h5>Légal</h5>
+            <a href="legal.html">Mentions légales</a>
+            <a href="legal.html">Transparence</a>
+        </div>
+        <div>
+            <h5>Contact</h5>
+            <a href="mailto:afriqueisrael6@gmail.com">afriqueisrael6@gmail.com</a>
+            <p style="margin-top:6px;">+225 07 08 88 61 61</p>
+        </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 ONG J'AIME ISRAËL — <a href="../index.html">&larr; Retour aux versions</a></div>
+</footer>
+
+<script src="../js/app.js"></script>
+</body>
+</html>
